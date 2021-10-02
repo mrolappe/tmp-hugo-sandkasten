@@ -1,9 +1,9 @@
 ---
-title: "erster inhaltt"
+title: "erster inhalt"
 date: 2021-10-02T11:31:26+02:00
 draft: true
 ---
 
 hier gehört der erste content hin
 
-eine kleine änderung. und noch eine.
+eine kleine änderung. und noch eine. aller guten änderungen sind drei.
