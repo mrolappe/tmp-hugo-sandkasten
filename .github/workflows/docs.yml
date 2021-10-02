@@ -23,7 +23,7 @@ jobs:
           hugo-version: '0.88.1'
       - name: Prepare Hugo
         run: |
-            git submodule sync && gitt submodule update --init
+            git submodule sync && git submodule update --init
       - name: Build
         run: make docs
         
