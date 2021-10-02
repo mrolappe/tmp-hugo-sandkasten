@@ -8,4 +8,6 @@ hier gehört der erste content hin
 
 eine kleine änderung. und noch eine. aller guten änderungen sind drei.
 
+dieter hat 'ne puppe im schrank.
+
 alles ändert sich. irgendwann.
