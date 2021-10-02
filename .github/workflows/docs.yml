@@ -27,8 +27,8 @@ jobs:
       - name: Build
         run: make docs
         
-      - name: add nojekyll
-        run: touch ./docs/public/.nojekyll
+#      - name: add nojekyll
+#        run: touch ./docs/public/.nojekyll
         
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3.8.0
