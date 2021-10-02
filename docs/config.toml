@@ -1,0 +1,38 @@
+#baseURL = 'http://example.org/'
+#languageCode = 'en-us'
+#title = 'My New Hugo Site'
+
+
+baseURL = "https://mrolappe.github.io/tmp-hugo-sandkasten"
+languageCode = "de-de"
+title = "mit hugo im sandkasten"
+theme = "learn"
+RelativeURLs=true
+CanonifyURLs=true
+
+[params]
+  pygmentsCodeFences = true
+  pygmentsStyle="monokai"
+    editURL = ""
+  author = "mrolappe"
+  description = "Documentation for {YOUR_GITHUB_REPO}"
+  showVisitedLinks = false
+  disableSearch = false
+  disableAssetsBusting = false
+  disableInlineCopyToClipBoard = false
+  disableShortcutsTitle = false
+  disableLanguageSwitchingButton = false
+  disableBreadcrumb = true
+  disableNextPrev = false
+  ordersectionsby = "weight"
+  themeVariant = "green"
+
+[[menu.shortcuts]] 
+  name = "<i class='fab fa-github'></i> Github repo"
+  identifier = "ds"
+  url = "https://github.com/mrolappe/tmp-hugo-sandkasten"
+  weight = 10
+
+[outputs]
+  home = [ "HTML", "RSS", "JSON"]
+
